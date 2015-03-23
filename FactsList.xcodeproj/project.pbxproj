@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		07CC0DD01AC0322800E7A863 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CC0DCF1AC0322800E7A863 /* main.m */; };
-		07CC0DD31AC0322800E7A863 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CC0DD21AC0322800E7A863 /* AppDelegate.m */; };
-		07CC0DD61AC0322800E7A863 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CC0DD51AC0322800E7A863 /* ViewController.m */; };
-		07CC0DD91AC0322800E7A863 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07CC0DD71AC0322800E7A863 /* Main.storyboard */; };
-		07CC0DDB1AC0322800E7A863 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07CC0DDA1AC0322800E7A863 /* Images.xcassets */; };
-		07CC0DDE1AC0322800E7A863 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07CC0DDC1AC0322800E7A863 /* LaunchScreen.xib */; };
 		07CC0DEA1AC0322800E7A863 /* FactsListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CC0DE91AC0322800E7A863 /* FactsListTests.m */; };
+		07CC0E101AC0327400E7A863 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CC0DF51AC0327400E7A863 /* AppDelegate.m */; };
+		07CC0E111AC0327400E7A863 /* FLUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CC0DF91AC0327400E7A863 /* FLUtility.m */; };
+		07CC0E121AC0327400E7A863 /* FLFactsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CC0DFC1AC0327400E7A863 /* FLFactsTableViewController.m */; };
+		07CC0E131AC0327400E7A863 /* FLDataDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CC0DFF1AC0327400E7A863 /* FLDataDownloader.m */; };
+		07CC0E141AC0327400E7A863 /* FLDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CC0E011AC0327400E7A863 /* FLDataParser.m */; };
+		07CC0E151AC0327400E7A863 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07CC0E021AC0327400E7A863 /* Images.xcassets */; };
+		07CC0E161AC0327400E7A863 /* LaunchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 07CC0E031AC0327400E7A863 /* LaunchImage.png */; };
+		07CC0E171AC0327400E7A863 /* FLFactsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CC0E061AC0327400E7A863 /* FLFactsModel.m */; };
+		07CC0E181AC0327400E7A863 /* FLFactsRowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CC0E081AC0327400E7A863 /* FLFactsRowModel.m */; };
+		07CC0E191AC0327400E7A863 /* broken-image.png in Resources */ = {isa = PBXBuildFile; fileRef = 07CC0E0A1AC0327400E7A863 /* broken-image.png */; };
+		07CC0E1A1AC0327400E7A863 /* gray_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 07CC0E0B1AC0327400E7A863 /* gray_bg.png */; };
+		07CC0E1B1AC0327400E7A863 /* image_not_available.png in Resources */ = {isa = PBXBuildFile; fileRef = 07CC0E0C1AC0327400E7A863 /* image_not_available.png */; };
+		07CC0E1C1AC0327400E7A863 /* FLFactsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CC0E0F1AC0327400E7A863 /* FLFactsTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +38,31 @@
 		07CC0DCA1AC0322800E7A863 /* FactsList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FactsList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07CC0DCE1AC0322800E7A863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07CC0DCF1AC0322800E7A863 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		07CC0DD11AC0322800E7A863 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		07CC0DD21AC0322800E7A863 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		07CC0DD41AC0322800E7A863 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		07CC0DD51AC0322800E7A863 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		07CC0DD81AC0322800E7A863 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		07CC0DDA1AC0322800E7A863 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		07CC0DDD1AC0322800E7A863 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		07CC0DE31AC0322800E7A863 /* FactsListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FactsListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07CC0DE81AC0322800E7A863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07CC0DE91AC0322800E7A863 /* FactsListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactsListTests.m; sourceTree = "<group>"; };
+		07CC0DF41AC0327400E7A863 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07CC0DF51AC0327400E7A863 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07CC0DF71AC0327400E7A863 /* FLConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLConstants.h; sourceTree = "<group>"; };
+		07CC0DF81AC0327400E7A863 /* FLUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLUtility.h; sourceTree = "<group>"; };
+		07CC0DF91AC0327400E7A863 /* FLUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLUtility.m; sourceTree = "<group>"; };
+		07CC0DFB1AC0327400E7A863 /* FLFactsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLFactsTableViewController.h; sourceTree = "<group>"; };
+		07CC0DFC1AC0327400E7A863 /* FLFactsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLFactsTableViewController.m; sourceTree = "<group>"; };
+		07CC0DFE1AC0327400E7A863 /* FLDataDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLDataDownloader.h; sourceTree = "<group>"; };
+		07CC0DFF1AC0327400E7A863 /* FLDataDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLDataDownloader.m; sourceTree = "<group>"; };
+		07CC0E001AC0327400E7A863 /* FLDataParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLDataParser.h; sourceTree = "<group>"; };
+		07CC0E011AC0327400E7A863 /* FLDataParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLDataParser.m; sourceTree = "<group>"; };
+		07CC0E021AC0327400E7A863 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		07CC0E031AC0327400E7A863 /* LaunchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchImage.png; sourceTree = "<group>"; };
+		07CC0E051AC0327400E7A863 /* FLFactsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLFactsModel.h; sourceTree = "<group>"; };
+		07CC0E061AC0327400E7A863 /* FLFactsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLFactsModel.m; sourceTree = "<group>"; };
+		07CC0E071AC0327400E7A863 /* FLFactsRowModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLFactsRowModel.h; sourceTree = "<group>"; };
+		07CC0E081AC0327400E7A863 /* FLFactsRowModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLFactsRowModel.m; sourceTree = "<group>"; };
+		07CC0E0A1AC0327400E7A863 /* broken-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "broken-image.png"; sourceTree = "<group>"; };
+		07CC0E0B1AC0327400E7A863 /* gray_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gray_bg.png; sourceTree = "<group>"; };
+		07CC0E0C1AC0327400E7A863 /* image_not_available.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_not_available.png; sourceTree = "<group>"; };
+		07CC0E0E1AC0327400E7A863 /* FLFactsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLFactsTableViewCell.h; sourceTree = "<group>"; };
+		07CC0E0F1AC0327400E7A863 /* FLFactsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLFactsTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +104,15 @@
 		07CC0DCC1AC0322800E7A863 /* FactsList */ = {
 			isa = PBXGroup;
 			children = (
-				07CC0DD11AC0322800E7A863 /* AppDelegate.h */,
-				07CC0DD21AC0322800E7A863 /* AppDelegate.m */,
-				07CC0DD41AC0322800E7A863 /* ViewController.h */,
-				07CC0DD51AC0322800E7A863 /* ViewController.m */,
-				07CC0DD71AC0322800E7A863 /* Main.storyboard */,
-				07CC0DDA1AC0322800E7A863 /* Images.xcassets */,
-				07CC0DDC1AC0322800E7A863 /* LaunchScreen.xib */,
+				07CC0DF31AC0327400E7A863 /* AppDelegate */,
+				07CC0DF61AC0327400E7A863 /* Common */,
+				07CC0E041AC0327400E7A863 /* Model */,
+				07CC0E0D1AC0327400E7A863 /* Views */,
+				07CC0DFA1AC0327400E7A863 /* Controllers */,
+				07CC0DFD1AC0327400E7A863 /* Helper */,
+				07CC0E021AC0327400E7A863 /* Images.xcassets */,
+				07CC0E031AC0327400E7A863 /* LaunchImage.png */,
+				07CC0E091AC0327400E7A863 /* Resources */,
 				07CC0DCD1AC0322800E7A863 /* Supporting Files */,
 			);
 			path = FactsList;
@@ -117,6 +142,75 @@
 				07CC0DE81AC0322800E7A863 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07CC0DF31AC0327400E7A863 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				07CC0DF41AC0327400E7A863 /* AppDelegate.h */,
+				07CC0DF51AC0327400E7A863 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		07CC0DF61AC0327400E7A863 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				07CC0DF71AC0327400E7A863 /* FLConstants.h */,
+				07CC0DF81AC0327400E7A863 /* FLUtility.h */,
+				07CC0DF91AC0327400E7A863 /* FLUtility.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		07CC0DFA1AC0327400E7A863 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				07CC0DFB1AC0327400E7A863 /* FLFactsTableViewController.h */,
+				07CC0DFC1AC0327400E7A863 /* FLFactsTableViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		07CC0DFD1AC0327400E7A863 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				07CC0DFE1AC0327400E7A863 /* FLDataDownloader.h */,
+				07CC0DFF1AC0327400E7A863 /* FLDataDownloader.m */,
+				07CC0E001AC0327400E7A863 /* FLDataParser.h */,
+				07CC0E011AC0327400E7A863 /* FLDataParser.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		07CC0E041AC0327400E7A863 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				07CC0E051AC0327400E7A863 /* FLFactsModel.h */,
+				07CC0E061AC0327400E7A863 /* FLFactsModel.m */,
+				07CC0E071AC0327400E7A863 /* FLFactsRowModel.h */,
+				07CC0E081AC0327400E7A863 /* FLFactsRowModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		07CC0E091AC0327400E7A863 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				07CC0E0A1AC0327400E7A863 /* broken-image.png */,
+				07CC0E0B1AC0327400E7A863 /* gray_bg.png */,
+				07CC0E0C1AC0327400E7A863 /* image_not_available.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		07CC0E0D1AC0327400E7A863 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				07CC0E0E1AC0327400E7A863 /* FLFactsTableViewCell.h */,
+				07CC0E0F1AC0327400E7A863 /* FLFactsTableViewCell.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +293,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07CC0DD91AC0322800E7A863 /* Main.storyboard in Resources */,
-				07CC0DDE1AC0322800E7A863 /* LaunchScreen.xib in Resources */,
-				07CC0DDB1AC0322800E7A863 /* Images.xcassets in Resources */,
+				07CC0E1A1AC0327400E7A863 /* gray_bg.png in Resources */,
+				07CC0E1B1AC0327400E7A863 /* image_not_available.png in Resources */,
+				07CC0E191AC0327400E7A863 /* broken-image.png in Resources */,
+				07CC0E151AC0327400E7A863 /* Images.xcassets in Resources */,
+				07CC0E161AC0327400E7A863 /* LaunchImage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +315,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07CC0DD61AC0322800E7A863 /* ViewController.m in Sources */,
-				07CC0DD31AC0322800E7A863 /* AppDelegate.m in Sources */,
+				07CC0E181AC0327400E7A863 /* FLFactsRowModel.m in Sources */,
+				07CC0E141AC0327400E7A863 /* FLDataParser.m in Sources */,
+				07CC0E131AC0327400E7A863 /* FLDataDownloader.m in Sources */,
+				07CC0E111AC0327400E7A863 /* FLUtility.m in Sources */,
+				07CC0E121AC0327400E7A863 /* FLFactsTableViewController.m in Sources */,
+				07CC0E171AC0327400E7A863 /* FLFactsModel.m in Sources */,
+				07CC0E101AC0327400E7A863 /* AppDelegate.m in Sources */,
+				07CC0E1C1AC0327400E7A863 /* FLFactsTableViewCell.m in Sources */,
 				07CC0DD01AC0322800E7A863 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,25 +344,6 @@
 			targetProxy = 07CC0DE41AC0322800E7A863 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		07CC0DD71AC0322800E7A863 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				07CC0DD81AC0322800E7A863 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		07CC0DDC1AC0322800E7A863 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				07CC0DDD1AC0322800E7A863 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		07CC0DEB1AC0322800E7A863 /* Debug */ = {
@@ -343,7 +426,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = FactsList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,7 +438,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = FactsList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

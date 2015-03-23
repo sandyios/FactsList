@@ -2,11 +2,12 @@
 //  AppDelegate.m
 //  FactsList
 //
-//  Created by Sundar on 23/03/15.
+//  Created by Santhosh on 22/03/15.
 //  Copyright (c) 2015 Cognizant. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "FLFactsTableViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    //loading the FLFactsTableViewController to the window on a navigationcontroller
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds] ];
+    FLFactsTableViewController *viewController = [[FLFactsTableViewController alloc] init];
+    viewController.view.frame = self.window.frame;
+    self.navigationController = [[UINavigationController alloc] initWithRootViewController:viewController];
+    self.window.rootViewController = self.navigationController;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
